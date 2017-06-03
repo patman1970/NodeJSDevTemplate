@@ -1,0 +1,11 @@
+#This ignores files listed in the following dir's & file-types.
+# * To re-download libs, note that the package.json already has
+# * these listed, and you can run command:
+# *       npm install
+# *
+# **** It will re-download all node_modules for your project.
+# *
+/node_modules/*
+*/node_modules/*
+*.tmp
+*.log
