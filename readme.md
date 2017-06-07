@@ -18,6 +18,8 @@ NOTES: installing the base Node.JS app (via package), it created this in my "set
 Running the "npm install express" added this similarly to my "set path" setting:
       c:\users\3estyp001\AppData\Roaming\npm;
 
+Currently configured to run on: https://nodejsdev-patman1999.c9users.io/
+
 ==================================================================
 
 I then created a web-server app in subfolder "Web_Server", which is launched by running actively the following command:

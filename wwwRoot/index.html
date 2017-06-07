@@ -1,7 +1,19 @@
 <html>
-<head><title>JS Hello World</title></head>
-<body>
+<head><title>JS Hello World</title>
+<script>
+  function body_onload() {
+    //NOTE: I intend to put all this in jQuery later
+    var spnDate = document.getElementById('spnDate');
+    if (spnDate) spnDate.innerHTML = new Date().toLocaleDateString();
+    var spnTime = document.getElementById('spnTime');
+    if (spnTime) spnTime.innerHTML = new Date().toTimeString();
+  }
+</script>
+</head>
+<body onload='body_onload();'>
   <h1>Hello World!</h1>
-  <p style="color:green;">Your first step into a larger world!</p>
+  <p style="color:blue;">Your first step into a larger world!</p>
+  <p>Todays date is <span id='spnDate'></span></p>
+  <p>The local time is <span id='spnTime'></span></p>
 </body>
 </html>
